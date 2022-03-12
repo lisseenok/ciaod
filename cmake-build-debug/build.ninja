@@ -72,11 +72,11 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_ciaod: phony || CMakeFiles/ciaod.dir
 
-build CMakeFiles/ciaod.dir/3vector.cpp.o: CXX_COMPILER__ciaod_Debug /Users/elizavetacaplina/CLionProjects/ciaod/3vector.cpp || cmake_object_order_depends_target_ciaod
-  DEP_FILE = CMakeFiles/ciaod.dir/3vector.cpp.o.d
+build CMakeFiles/ciaod.dir/practic2/staticArray.cpp.o: CXX_COMPILER__ciaod_Debug /Users/elizavetacaplina/CLionProjects/ciaod/practic2/staticArray.cpp || cmake_object_order_depends_target_ciaod
+  DEP_FILE = CMakeFiles/ciaod.dir/practic2/staticArray.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++14
   OBJECT_DIR = CMakeFiles/ciaod.dir
-  OBJECT_FILE_DIR = CMakeFiles/ciaod.dir
+  OBJECT_FILE_DIR = CMakeFiles/ciaod.dir/practic2
 
 
 # =============================================================================
@@ -86,7 +86,7 @@ build CMakeFiles/ciaod.dir/3vector.cpp.o: CXX_COMPILER__ciaod_Debug /Users/eliza
 #############################################
 # Link the executable ciaod
 
-build ciaod: CXX_EXECUTABLE_LINKER__ciaod_Debug CMakeFiles/ciaod.dir/3vector.cpp.o
+build ciaod: CXX_EXECUTABLE_LINKER__ciaod_Debug CMakeFiles/ciaod.dir/practic2/staticArray.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0
   OBJECT_DIR = CMakeFiles/ciaod.dir
   POST_BUILD = :
