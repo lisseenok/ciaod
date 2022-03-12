@@ -73,7 +73,7 @@ int main() {
     cin >> n;
 
     int **array = new int*[ROWS];
-    for (int count = 0; count < ROWS; count++)
+    for (int count = 0; count < ROWS; ++count)
         array[count] = new int[COLS];
 
     cout << "Введите 1, если хотите внести числа в матрицу самостоятельно, и 2 - если заполнить ее рандомными числами:" << endl;
