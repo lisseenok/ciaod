@@ -1,12 +1,13 @@
 # ninja log v5
 0	515	1647095669829609624	CMakeFiles/ciaod.dir/practice2/2dynamicArray.cpp.o	a700cb678361c70e
 0	576	1646330388344882565	CMakeFiles/ciaod.dir/vector.cpp.o	56e35ce83f9025e
-0	469	1647094613157039615	CMakeFiles/ciaod.dir/practice2/2staticArray.cpp.o	672042f8ea7f05df
 2	537	1647098879365013741	CMakeFiles/ciaod.dir/practice2/tasks-1-2/2vector.cpp.o	9b7acb8bf0151b03
-0	66	1647101169346097633	build.ninja	e3753e6adacd98c7
-537	590	1647098879420522209	ciaod	e368e39f6f5b6e8e
+0	469	1647094613157039615	CMakeFiles/ciaod.dir/practice2/2staticArray.cpp.o	672042f8ea7f05df
+0	55	1647616889954983602	build.ninja	e3753e6adacd98c7
+1	303	1647616790777726962	CMakeFiles/ciaod.dir/practice3/3char.cpp.o	eca44c04789e1d21
+303	340	1647616790815307872	ciaod	7ab9d5d13003cede
 0	1978	1646937857726772521	CMakeFiles/ciaod.dir/3vector.cpp.o	91400156ffd7249c
 1	427	1647093090452033751	CMakeFiles/ciaod.dir/practic2/staticArray.cpp.o	dda13e18db8c72d5
-0	55	1647101169346097633	build.ninja	e3753e6adacd98c7
-1	487	1647101169840594972	CMakeFiles/ciaod.dir/practice2/task-3/2-3-vector.cpp.o	f926dc1dfe693bb4
-488	543	1647101169898700268	ciaod	b240e0e6972d8a0a
+5	575	1647101603364110799	CMakeFiles/ciaod.dir/practice2/task-3/2-3-vector.cpp.o	f926dc1dfe693bb4
+0	434	1647616905800986035	CMakeFiles/ciaod.dir/practice3/3string.cpp.o	43e82213f5d446d5
+434	485	1647616905853860183	ciaod	2b975d88dc0fa103

@@ -3,4 +3,4 @@ project(ciaod)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ciaod practice2/task-3/2-3-vector.cpp)
+add_executable(ciaod practice3/3string.cpp)
