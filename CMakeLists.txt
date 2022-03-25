@@ -3,4 +3,4 @@ project(ciaod)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ciaod practice3/3string.cpp)
+add_executable(ciaod practice4/4staticArray.cpp)

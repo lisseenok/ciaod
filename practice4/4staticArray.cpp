@@ -8,42 +8,82 @@ using namespace std;
 // вариант 28
 struct Student{
     string studentBook;
-    string numberOfTask;
     string firstTask;
     string secondTask;
     string thirdTask;
 };
 
 // 1) Заполнение данных по заданному заданию заданного студента с клавиатуры.
-void addStudent(){
+Student addStudent(){
     Student student;
-    int buffer;
+    string buffer;
 
     cout << "Введите номер зачетной книжки студента: " << endl;
     cin >> buffer;
     student.studentBook = buffer;
 
-    cout << "Введите номер задания: " << endl;
+    cout << "Введите балл за задачу 1: " << endl;
     cin >> buffer;
-    student.numberOfTask = buffer;
+    student.firstTask = buffer;
 
-    cout << "Введите балл за это задание: " << endl;
+    cout << "Введите балл за задачу 2: " << endl;
     cin >> buffer;
-    student.studentBook = buffer;
+    student.secondTask = buffer;
 
-    if (student.numberOfTask == "1") student.firstTask = buffer;
-    else if (student.numberOfTask == "2") student.secondTask = buffer;
-    else student.thirdTask = buffer;
+    cout << "Введите балл за задачу 3: " << endl;
+    cin >> buffer;
+    student.thirdTask = buffer;
+
+
+    return student;
 }
 
 // 2) Вставить запись по студенту в начало таблицы.
-void addStudentInArray(Student student, string array[ROWS][5]){
-    string studentData[5];
+void addStudentInArray(Student student, vector<vector<string>> array, int n){
+    vector<string> studentData(4);
+    vector<string> temp;
     studentData[0] = student.studentBook;
-    studentData[1] = student.numberOfTask;
-    studentData[2] = student.firstTask;
-    studentData[3] = student.secondTask;
-    studentData[4] = student.thirdTask;
+    studentData[1] = student.firstTask;
+    studentData[2] = student.secondTask;
+    studentData[3] = student.thirdTask;
 
+    for (int i = 0; i < n - 1; ++i) {
+        temp = array[i + 1];
+        array[i + 1] = array[i];
+        array[i] = temp;
+    }
     array[0] = studentData;
+
+}
+
+void printArray(vector<vector<string>> vector, int n){
+    int i;
+    int j;
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j < 4; j++)
+            cout << vector[i][j] << " ";
+        cout << endl;
+    }
+    cout << endl;
+}
+
+
+
+int main(){
+    vector<vector<string>> array;
+    int n;
+
+    cout << "Введите количество студентов: " << endl;
+    cin >> n;
+
+    for (int i = 0; i < n; ++i) {
+        Student student = addStudent();
+        addStudentInArray(student, array, n);
+    }
+
+    printArray(array, n);
+
+
+    return 0;
 }
