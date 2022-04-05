@@ -35,6 +35,7 @@ int main()
     }
     vec.push_back(buffer);
 
+    cout << "Исходный список слов:" << endl;
     for (int i = 0; i < vec.size(); ++i) {
         cout << vec[i] << endl;
     }
@@ -54,6 +55,7 @@ int main()
         }
     }
 
+    cout << "Пары анаграммы: " << endl;
     for (int i = 0; i < result.size(); ++i) {
         for (int j = 0; j < result[i].size(); ++j) {
             cout << result[i][j] << " ";
