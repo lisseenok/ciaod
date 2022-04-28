@@ -60,12 +60,11 @@ int main()
     cout << "Первый связанный список: " << endl;
     l1.print();
 
-    l2.push_back(5);
+    l2.push_back(1);
     l2.push_back(6);
     l2.push_back(7);
-    l2.push_back(1);
-    l2.push_back(2);
     l2.push_back(4);
+    l2.push_back(9);
     cout << "Второй связанный список: " << endl;
     l2.print();
 
@@ -76,7 +75,6 @@ int main()
     cout << "Измененный первый список: " << endl;
     l1 = functionAdd(l1, l2, a);
     l1.print();
-    //l2.print();
 
 
     return 0;
