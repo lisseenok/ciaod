@@ -3,4 +3,4 @@ project(ciaod)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ciaod practice6/task2.cpp)
+add_executable(ciaod practice7/infToPost.cpp)
