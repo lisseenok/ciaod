@@ -1,0 +1,13 @@
+111 Moscow
+112 Saratov
+113 Rostov
+114 Kolomna
+115 Paris
+116 Novosibirsk
+117 Ekaterinburg
+118 Obninsk
+119 Magnitogorsk
+120 Chelyabinsk
+121 Perm
+122 Yaroslavl
+123 Kazan
