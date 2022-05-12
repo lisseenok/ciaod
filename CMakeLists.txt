@@ -3,4 +3,4 @@ project(ciaod)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ciaod practice9/1.cpp)
+add_executable(ciaod practice10/replace.cpp)
